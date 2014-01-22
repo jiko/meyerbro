@@ -1,0 +1,240 @@
+---
+---
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+header, nav, article, footer {
+	display: block;}
+
+body {
+	color: #524b49;
+	background-image:url({{site.baseurl}}/Images/layout/mb-bg.jpg);
+	background-repeat:repeat-x;
+	background-color: #a21418;
+	font-family: 'Helserif-Boo', Georgia, Times, Serif;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-shadow: -1px 1px 3px #c1c1c1;}
+h1 { font-size: 1.3em;}
+h2 { font-size: 1.17em;}
+h3 { font-size: 1em; line-height: 1em;}
+p { 
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: .75rem;}
+
+a         { color: #c1c1c1; }
+a:hover   { color: #524B49; }
+a:visited { color: #3C6888; }
+
+hr {
+	border: 0;
+	color: #C2C2C2;
+	background-color: #C2C2C2;
+	height: 2px;}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.container {
+	max-width: 780px;
+	margin: 0px auto;
+	background color: #ffffff;}
+
+header {
+	padding: 2%;
+	border-top: 3px solid #000000;}
+header h1 {
+	color: #ffffff;}
+#headerinfo {
+	float: right;
+	text-align: right;
+	color: #000;
+	padding-top: 7%;}
+#headerinfo a { 
+	color: #000;}
+#headerinfo a:hover { 
+	color: #c1c1c1;}
+	
+
+
+.site .meta {
+  color: #aaa;
+}
+
+footer {
+	font-family: Helvetica, arial, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	padding: 1.5% 3%;
+	background-color: #000;
+	overflow: auto;
+	width: 100%;}
+	
+#footer_left {
+	font-size: 12px;}
+#footer_right {
+	width: 26.5%;
+	float: right;
+	font-size: 12px;}
+	
+footer address {
+	display: inline;}
+/*
+footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+footer .contact a {
+  color: #8085C1;
+}
+
+footer .rss {
+  margin-right: -.2em;
+  float: right;
+  text-align: right;
+}
+
+footer .rss img {
+  border: 0;
+}*/
+
+article {
+	border: 2px solid #c2c2c2;
+	background-color: #ffffff;
+	overflow: auto;
+	padding: 3% 3%;
+	font-family: 'Helserif-Boo', Georgia, Times, Serif;}
+
+/*****************************************************************************/
+/*
+/* Images
+/*
+/*****************************************************************************/
+
+.id-card img {
+	width: 113px;
+	max-height: 160px;
+	}
+/*
+article img {
+	width: 260px;
+	}
+*/
+
+/*****************************************************************************/
+/*
+/* Overrides
+/*
+/******************************************************************************/
+
+.pull-right {
+  float: right !important;
+} 
+
+.pull-left {
+  float: left !important;
+} 
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 5% 0 7.5% 0;
+}
+
+
+nav.top-bar {
+	padding: 0px 2%;
+	background-color: #000;
+}
+
+ul.right {
+	color: #524B49;
+	background-color: #000;
+}
+
+.top-bar-section ul li > a {
+	font-family: 'Montserrat', Arial, sans-serif !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: .8em;
+	color: #524B49;
+	background: #000;
+}
+
+.top-bar-section li a:not(.button) {
+	background: #000;
+}
+
+.top-bar.expanded .title-area {
+	background: #000 !important;
+}
+
+.top-bar expanded {
+	background: #000 !important;
+}
+
+.top-bar {
+	background: #000;
+}
+
+/*
+nav.top-bar {
+	font-family: 'Montserrat', Arial, sans-serif !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: .8em;
+	color: #524B49;
+	height: auto;
+	text-shadow: -1px 1px 3px #b9b9b9;}
+
+section.top-bar-section {
+	display: inline-block;
+	color: #524B49;
+	background-color: #000;
+}
+
+section.top-bar-section li {
+	color: #524B49;
+	background-color: #000;
+}
+
+nav li {
+	display: inline-block;
+	width: 16%;
+	border-right: 2px solid #c2c2c2;
+	text-align: center}
+nav #last {
+	border-right: 0px;}
+nav li a{
+	color: #524B49 !important;
+	text-decoration: none;}
+nav li a:hover, nav li a.current {
+	color: #000000 !important;
+	text-decoration: none !important;}
+*/
