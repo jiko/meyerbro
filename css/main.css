@@ -103,25 +103,6 @@ footer {
 	
 footer address {
 	display: inline;}
-/*
-footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-footer .contact a {
-  color: #8085C1;
-}
-
-footer .rss {
-  margin-right: -.2em;
-  float: right;
-  text-align: right;
-}
-
-footer .rss img {
-  border: 0;
-}*/
 
 article {
 	border: 2px solid #c2c2c2;
@@ -136,15 +117,7 @@ article {
 /*
 /*****************************************************************************/
 
-.id-card img {
-	width: 113px;
-	max-height: 160px;
-	}
-/*
-article img {
-	width: 260px;
-	}
-*/
+img { padding: 1%; }
 
 /*****************************************************************************/
 /*
@@ -203,38 +176,3 @@ ul.right {
 	background: #000;
 }
 
-/*
-nav.top-bar {
-	font-family: 'Montserrat', Arial, sans-serif !important;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: .8em;
-	color: #524B49;
-	height: auto;
-	text-shadow: -1px 1px 3px #b9b9b9;}
-
-section.top-bar-section {
-	display: inline-block;
-	color: #524B49;
-	background-color: #000;
-}
-
-section.top-bar-section li {
-	color: #524B49;
-	background-color: #000;
-}
-
-nav li {
-	display: inline-block;
-	width: 16%;
-	border-right: 2px solid #c2c2c2;
-	text-align: center}
-nav #last {
-	border-right: 0px;}
-nav li a{
-	color: #524B49 !important;
-	text-decoration: none;}
-nav li a:hover, nav li a.current {
-	color: #000000 !important;
-	text-decoration: none !important;}
-*/
