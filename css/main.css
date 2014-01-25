@@ -38,9 +38,9 @@ p {
 	line-height: 1.4em;
 	margin-bottom: .75rem;}
 
-a         { color: #c1c1c1; }
+a         { color: #3C6888; }
 a:hover   { color: #524B49; }
-a:visited { color: #3C6888; }
+a:visited { color: #c1c1c1; }
 
 hr {
 	border: 0;
@@ -156,7 +156,6 @@ ul.right {
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: .8em;
-	color: #524B49;
 	background: #000;
 }
 
