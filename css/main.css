@@ -38,9 +38,11 @@ p {
 	line-height: 1.4em;
 	margin-bottom: .75rem;}
 
-a         { color: #3C6888; }
+a         { color: #991122; }
 a:hover   { color: #524B49; }
-a:visited { color: #c1c1c1; }
+a:visited { color: #818181; }
+
+img { padding: 1% 2% 1% 0; }
 
 hr {
 	border: 0;
@@ -79,8 +81,6 @@ header h1 {
 #headerinfo a:hover { 
 	color: #c1c1c1;}
 	
-
-
 .site .meta {
   color: #aaa;
 }
@@ -88,21 +88,17 @@ header h1 {
 footer {
 	font-family: Helvetica, arial, sans-serif;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 0.9em;
 	padding: 1.5% 3%;
 	background-color: #000;
 	overflow: auto;
 	width: 100%;}
 	
-#footer_left {
-	font-size: 12px;}
-#footer_right {
-	width: 26.5%;
-	float: right;
-	font-size: 12px;}
-	
 footer address {
 	display: inline;}
+
+footer a { color: #c1c1c1; }
+footer a:visited { color: #818181; }
 
 article {
 	border: 2px solid #c2c2c2;
@@ -110,14 +106,6 @@ article {
 	overflow: visible;
 	padding: 3% 3%;
 	font-family: 'Helserif-Boo', Georgia, Times, Serif;}
-
-/*****************************************************************************/
-/*
-/* Images
-/*
-/*****************************************************************************/
-
-img { padding: 1% 2% 1% 0; }
 
 /*****************************************************************************/
 /*
@@ -139,7 +127,6 @@ img { padding: 1% 2% 1% 0; }
   max-width: 100%;
   margin: 5% 0 7.5% 0;
 }
-
 
 nav.top-bar {
 	padding: 0px 2%;
