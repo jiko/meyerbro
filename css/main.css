@@ -18,8 +18,6 @@ header, nav, article, footer {
 
 body {
 	color: #524b49;
-	background-image:url({{site.baseurl}}/Images/layout/mb-bg.jpg);
-	background-repeat:repeat-x;
 	background-color: #a21418;
 	font-family: 'Helserif-Boo', Georgia, Times, Serif;
 	margin: 0px;
@@ -67,6 +65,7 @@ table {
 	background color: #ffffff;}
 
 header {
+  background-color: #fff;
 	padding: 2%;
 	border-top: 3px solid #000000;}
 header h1 {
