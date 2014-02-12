@@ -9,4 +9,4 @@ js/min.js: js/jquery.js js/foundation.min.js
 	uglifyjs -cmo $@ $^
 
 clean:
-	rm -rf _site
+	rm -rf _site js/min.js css/min.css
