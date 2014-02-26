@@ -17,7 +17,7 @@ header, nav, article, footer {
 	display: block;}
 
 body {
-	color: #524b49;
+	color: #222;
 	background-color: #a21418;
   background-image: url("{{ site.baseurl }}/Images/concrete_wall.png");
 	font-family: 'Helserif-Boo', Georgia, Times, Serif;
@@ -68,7 +68,7 @@ table {
 header {
   background-color: #fff;
 	padding: 2%;
-	border-top: 3px solid #000000;}
+	border-top: 3px solid #a21418;}
 header h1 {
 	color: #ffffff;}
 #headerinfo {
@@ -90,15 +90,16 @@ footer {
 	font-weight: 400;
 	font-size: 0.9em;
 	padding: 1.5% 3%;
-	background-color: #000;
+	background-color: #a21418;
 	overflow: auto;
 	width: 100%;}
 	
 footer address {
 	display: inline;}
 
-footer a { color: #c1c1c1; }
-footer a:visited { color: #818181; }
+footer a { color: #fff; }
+footer a:hover { color: #818181; }
+footer a:visited { color: #fff; }
 
 article {
 	border: 2px solid #c2c2c2;
@@ -130,12 +131,12 @@ article {
 
 nav.top-bar {
 	padding: 0px 2%;
-	background-color: #000;
+	background-color: #a21418;
 }
 
 ul.right {
 	color: #524B49;
-	background-color: #000;
+	background-color: #a21418;
 }
 
 .top-bar-section ul li > a {
@@ -143,21 +144,21 @@ ul.right {
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: .8em;
-	background: #000;
+	background: #a21418;
 }
 
 .top-bar-section li a:not(.button) {
-	background: #000;
+	background: #a21418;
 }
 
 .top-bar.expanded .title-area {
-	background: #000 !important;
+	background: #a21418 !important;
 }
 
 .top-bar expanded {
-	background: #000 !important;
+	background: #a21418 !important;
 }
 
 .top-bar {
-	background: #000;
+	background: #a21418;
 }
