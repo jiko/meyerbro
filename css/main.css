@@ -162,3 +162,5 @@ ul.right {
 .top-bar {
 	background: #a21418;
 }
+
+.top-bar.expanded .toggle-topbar a { color: #fff; }
