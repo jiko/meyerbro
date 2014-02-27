@@ -114,14 +114,6 @@ article {
 /*
 /******************************************************************************/
 
-.pull-right {
-  float: right !important;
-} 
-
-.pull-left {
-  float: left !important;
-} 
-
 .img-responsive {
   display: block;
   height: auto;
