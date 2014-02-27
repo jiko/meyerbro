@@ -131,6 +131,13 @@ ul.right {
 	background-color: #a21418;
 }
 
+.top-bar ul li > a {
+	font-family: 'Montserrat', Arial, sans-serif !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: .8em;
+}
+
 .top-bar-section ul li > a {
 	font-family: 'Montserrat', Arial, sans-serif !important;
 	font-weight: 700;
@@ -153,6 +160,12 @@ ul.right {
 
 .top-bar {
 	background: #a21418;
+}
+
+.top-bar .toggle-topbar a { color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif !important;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .top-bar.expanded .toggle-topbar a { color: #fff; }
