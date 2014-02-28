@@ -1,4 +1,4 @@
-meyerbro
+Meyer Brothers Building Company
 ========
 
-Me yer bro dot com
+Concrete background texture courtesy of [Subtle Patterns](http://subtlepatterns.com)
