@@ -70,6 +70,7 @@ header {
 	padding: 2%;
 	border-top: 3px solid #a21418;}
 header h1 {
+    padding-left: 15px;
 	color: #ffffff;}
 #headerinfo {
 	float: right;
