@@ -61,7 +61,7 @@ table {
 /*****************************************************************************/
 
 .container {
-	max-width: 780px;
+	max-width: 640px;
 	margin: 0px auto;
 	background color: #ffffff;}
 
@@ -70,13 +70,15 @@ header {
 	padding: 2%;
 	border-top: 3px solid #a21418;}
 header h1 {
-    padding-left: 15px;
-	color: #ffffff;}
+  font-size: 1.4em;
+  vertical-align: middle;
+	color: #222; }
+.logo { padding-right: 0; }
 #headerinfo {
 	float: right;
-	text-align: right;
+	text-align: left;
 	color: #000;
-	padding-top: 7%;}
+}
 #headerinfo a { 
 	color: #000;}
 #headerinfo a:hover { 
