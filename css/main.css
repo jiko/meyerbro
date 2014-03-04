@@ -89,7 +89,7 @@ header h1 {
 .site .meta { color: #aaa; }
 
 footer {
-  color: #c1c1c1;
+  color: #fff;
   font-family: Helvetica, arial, sans-serif;
   font-weight: 400;
   font-size: 0.8em;
@@ -102,7 +102,7 @@ footer address {
   display: inline;}
 
 footer a { color: #fff; }
-footer a:hover { color: #818181; }
+footer a:hover { color: #c1c1c1; }
 footer a:visited { color: #fff; }
 
 article {
