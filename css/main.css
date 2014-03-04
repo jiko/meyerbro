@@ -20,7 +20,7 @@ body {
   color: #222;
   background-color: #a21418;
   background-image: url("{{ site.baseurl }}/Images/concrete_wall.png");
-  font-family: 'Helserif-Boo', Georgia, Times, Serif;
+  font-family: Georgia, Times, Serif;
   margin: 0px;
 }
 
@@ -110,7 +110,7 @@ article {
   background-color: #ffffff;
   overflow: visible;
   padding: 3% 3%;
-  font-family: 'Helserif-Boo', Georgia, Times, Serif;}
+  font-family: Georgia, Times, Serif;}
 
 /*****************************************************************************/
 /*
