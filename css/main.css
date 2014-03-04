@@ -89,9 +89,10 @@ header h1 {
 }
 
 footer {
+  color: #c1c1c1;
 	font-family: Helvetica, arial, sans-serif;
 	font-weight: 400;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	padding: 1.5% 3%;
 	background-color: #a21418;
 	overflow: auto;
