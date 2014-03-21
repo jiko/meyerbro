@@ -19,7 +19,7 @@ header, nav, article, footer {
 body {
   color: #222;
   background-color: #a21418;
-  background-image: url("{{ site.baseurl }}/Images/concrete_wall.png");
+  background-image: url("/Images/concrete_wall.png");
   font-family: Georgia, Times, Serif;
   margin: 0px;
 }
