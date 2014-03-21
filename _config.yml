@@ -1,3 +1,7 @@
 name: Meyer Brothers Building Company
+exclude:    ['Makefile']
 markdown: redcarpet
-baseurl: /meyerbro
+redcarpet:
+  extensions:
+    - smart
+    - autolink

@@ -1,0 +1,24 @@
+{
+  "name": "meyerbro",
+  "version": "0.0.1",
+  "description": "Meyer Brothers Building Company website",
+  "main": "index.html",
+  "dependencies": {
+    "uglify-js": "~2.4.12",
+    "cssmin": "~0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiko/meyerbro.git"
+  },
+  "author": "James Koppen",
+  "license": "All rights reserved",
+  "bugs": {
+    "url": "https://github.com/jiko/meyerbro/issues"
+  },
+  "homepage": "https://github.com/jiko/meyerbro"
+}

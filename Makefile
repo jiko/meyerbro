@@ -1,3 +1,5 @@
+export PATH := node_modules/.bin:$(PATH)
+
 .PHONY: all clean serve
 
 all: css/min.css js/min.js
