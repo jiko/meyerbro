@@ -167,8 +167,8 @@ ul.right {
   background: #a21418;
 }
 
-.top-bar .toggle-topbar a { color: #fff;
-  font-family: 'Montserrat', Arial, sans-serif !important;
+.top-bar .toggle-topbar a { 
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
 }
