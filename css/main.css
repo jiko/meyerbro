@@ -120,6 +120,8 @@ article {
 /*
 /******************************************************************************/
 
+.no-js .top-bar-section ul li:active > a { background-color: #a21418; }
+
 .img-responsive {
   display: block;
   height: auto;
